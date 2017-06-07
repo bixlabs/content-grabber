@@ -1,0 +1,25 @@
+{
+  "name": "content-grabber-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "koa": "^2.2.0",
+    "koa-body": "^2.1.0",
+    "koa-router": "^7.2.0",
+    "mongoose": "^4.10.5",
+    "mongoose-unique-validator": "^1.0.5",
+    "x-ray": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
